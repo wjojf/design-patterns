@@ -1,6 +1,7 @@
 from abc import abstractmethod
 
-# Invalid because of: child model may not support fax/scan functions but still will be able to call
+# Invalid because of:
+# child model may not support fax/scan functions but still will be able to call
 class Machine:
     def print(self, document):
         raise NotImplementedError
